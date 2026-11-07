@@ -51,10 +51,19 @@
         <section class="section" id="keypoints">
           <h2>重點整理</h2>
           <ol>
-            <li><strong>Vera Rubin 世代</strong>：NVL72 銅連接 scale-up，NVL576 改用光學 scale-up。</li>
-            <li><strong>Feynman 世代</strong>：NVL1152 採 CPO 光學 scale-up。</li>
-            <li><strong>五大主題</strong>：挑戰、技術架構、價值鏈重構、風險、投資機會。</li>
+            <li><strong>Nvidia 路線圖</strong>：Vera Rubin 世代（2026）：NVL72 銅連接、NVL576 光學 scale-up；Feynman 世代（2028）：NVL1152 採 CPO 光學 scale-up。Nvidia 未來會同時做光與電的 scale-up 與光學 scale-out。</li>
+            <li><strong>突破記憶體牆</strong>：發揮 GPU 效能需要互連大幅擴展：提高單通道速度（112G→224G→448G）或增加通道數，但受訊號完整性與機箱空間限制，CPO 就是為了打破這些物理限制。</li>
+            <li><strong>三層互連</strong>：Scale-up（機櫃內 2–5 公尺、電連接、每顆約 7,200 bit/s、延遲 100 奈秒）、Scale-out（叢集內 500 公尺–2 公里、光學、約 800 bit/s、微秒級）、Scale-across（跨叢集 100 公里以上、相干光學、毫秒級）。</li>
+            <li><strong>scale-out 的代價</strong>：跨機櫃連線需要多次光電轉換，每顆 GPU 頻寬由 7.2Tbps 降到 0.8Tbps，延遲由數百奈秒升到 2–3 微秒。</li>
+            <li><strong>簡報五大主題</strong>：scale-up 的核心挑戰、技術架構與實作路徑、價值鏈重構（光引擎與外部雷射光源拆解）、技術與商業風險、投資機會。</li>
           </ol>
+        </section>
+        <section class="section" id="drivers">
+          <h2>產業動能</h2>
+          <ul class="drivers">
+            <li><span class="when">2026 年</span><span>Vera Rubin NVL576 導入光學 scale-up。</span></li>
+            <li><span class="when">2028 年</span><span>Feynman NVL1152 採用 CPO 光學 scale-up，目標把多個機櫃串成一顆「大 xPU」。</span></li>
+          </ul>
         </section>
         <section class="section" id="numbers">
           <h2>關鍵數據</h2>
@@ -71,12 +80,6 @@
         <section class="section" id="terms">
           <h2>名詞解釋</h2>
           <div data-terms="CPO,Scale-up"></div>
-        </section>
-        <section class="section" id="mynotes">
-          <h2>我的筆記</h2>
-          <div class="mynotes">
-            <p>論壇簡報只有投影片文字，我整理的是目錄與路線圖重點。</p>
-          </div>
         </section>
         <section class="section source" id="source">
           <h2>來源與聲明</h2>

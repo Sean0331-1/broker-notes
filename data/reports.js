@@ -225,8 +225,8 @@ window.REPORTS = [
     title: "晶片測試重要性提升下的領導者",
     ratingRaw: "Buy（首評）", rating: "positive",
     targetPrice: 5300, targetRange: null, prevTargetPrice: null, price: 4275, currency: "TWD",
-    valuation: "—",
-    epsForecast: {},
+    valuation: "33x 2027E EPS",
+    epsForecast: {"2026E":  96.17, "2027E":  158.7},
     summary: "美銀首次覆蓋即給買進，看好穎崴聚焦 AI/HPC，以及透過 HyperSocket 切入規模為 FT 4–5 倍的 SLT 市場。",
     tags: ["首評", "HyperSocket", "Coaxial Socket"]
   },
@@ -256,7 +256,7 @@ window.REPORTS = [
     ratingRaw: "Overweight", rating: "positive",
     targetPrice: 12000, targetRange: null, prevTargetPrice: null, price: 10700, currency: "TWD",
     valuation: "剩餘收益模型",
-    epsForecast: {},
+    epsForecast: {"2026e":  103.9, "2027e":  196.87, "2028e":  347.54},
     summary: "1Q26 EPS 19.54 元符合預期，手機 SoC 市占提升與下一代 AI GPU/CPU 帶動 2Q 營收再季增約兩成。",
     tags: ["手機", "Cobra", "CPO"]
   },
@@ -276,7 +276,7 @@ window.REPORTS = [
     ratingRaw: "增加持股", rating: "positive",
     targetPrice: 13000, targetRange: null, prevTargetPrice: 8500, price: 10700, currency: "TWD",
     valuation: "50x 2028F EPS",
-    epsForecast: {},
+    epsForecast: {"2026F":  91.71, "2027F":  169.35, "2028F":  268.63},
     summary: "Agentic AI 讓美系 server CPU 客戶兩度上修訂單，凱基估 2025–28 年獲利年複合成長 79%，目標價調升至 13,000 元。",
     tags: ["Agentic AI", "Server CPU", "探針卡潛力"]
   },
@@ -286,7 +286,7 @@ window.REPORTS = [
     ratingRaw: "增加持股（調升）", rating: "positive",
     targetPrice: 11200, targetRange: null, prevTargetPrice: null, price: 9630, currency: "TWD",
     valuation: "55x 2028F EPS",
-    epsForecast: {"2026F": 86.79},
+    epsForecast: {"2026F":  86.79, "2027F":  143.55, "2028F":  203.66},
     summary: "AI 推論與代理式 AI 帶動 server CPU 需求大增，SLT 測試座用量約為 FT 的 5 倍，玉山調升評等至增加持股。",
     tags: ["AI 推論", "Server CPU", "調升評等"]
   },
@@ -356,7 +356,7 @@ window.REPORTS = [
     ratingRaw: "Overweight", rating: "positive",
     targetPrice: 15000, targetRange: null, prevTargetPrice: 12000, price: 8665, currency: "TWD",
     valuation: "剩餘收益模型",
-    epsForecast: {},
+    epsForecast: {"2026e":  94.88, "2027e":  205.18, "2028e":  436.93},
     summary: "每座測試座腳數由 4–6K 升到 10K 以上，Burn-in 與 SLT 擴大市場；彈簧針自製率長期目標 50–60%。",
     tags: ["Burn-in", "腳數", "自製率"]
   },
@@ -386,7 +386,7 @@ window.REPORTS = [
     ratingRaw: "增加持股（首評）", rating: "positive",
     targetPrice: 350, targetRange: null, prevTargetPrice: null, price: 300, currency: "TWD",
     valuation: "26x 2027F EPS",
-    epsForecast: {},
+    epsForecast: {"2026F":  9.81, "2027F":  13.46},
     summary: "凱基首次覆蓋京元電，認為測試被市場低估；Rubin 測試時間比 Blackwell 多 50–100%，Google TPU 也將導入 Burn-in。",
     tags: ["首評", "TPU", "CP 外溢"]
   },
@@ -406,7 +406,7 @@ window.REPORTS = [
     ratingRaw: "持有", rating: "neutral",
     targetPrice: 230, targetRange: null, prevTargetPrice: 155, price: 225, currency: "TWD",
     valuation: "17x 本益比",
-    epsForecast: {},
+    epsForecast: {"2026F":  13.38, "2027F":  16.2},
     summary: "3Q25 因新台幣升值幅度遠低於預期而大幅優於預估，凱基上調目標價 48%，但上檔空間有限，維持持有。",
     tags: ["匯率", "資本支出", "CoW 外溢"]
   },
@@ -425,8 +425,8 @@ window.REPORTS = [
     title: "更強的需求、更好的產品組合及更高的資本支出",
     ratingRaw: "增加持股（調升）", rating: "positive",
     targetPrice: 345, targetRange: null, prevTargetPrice: 230, price: 284, currency: "TWD",
-    valuation: "2027F EPS × 週期平均本益比",
-    epsForecast: {},
+    valuation: "17x 2027F EPS",
+    epsForecast: {"2026F":  14.85, "2027F":  20.32},
     summary: "4Q25 EPS 3.37 元優於預期三成，LEAP 2026 年營收目標上調至 32 億美元，凱基把評等從持有調升為增加持股。",
     tags: ["調升評等", "LEAP", "資本支出"]
   },
@@ -446,7 +446,7 @@ window.REPORTS = [
     ratingRaw: "BUY", rating: "positive",
     targetPrice: 490, targetRange: null, prevTargetPrice: 550, price: 356, currency: "TWD",
     valuation: "—",
-    epsForecast: {"2025F": 15.49},
+    epsForecast: {"2025F":  15.49, "2026F":  17.51},
     summary: "大型客戶客製化建置多已完成、部分客戶因 AI 伺服器缺貨延後進駐，3Q25 低於預期；長期仍看月租收入成長。",
     tags: ["IDC", "資料中心", "下修"]
   },
@@ -456,7 +456,7 @@ window.REPORTS = [
     ratingRaw: "Overweight", rating: "positive",
     targetPrice: 480, targetRange: null, prevTargetPrice: 425, price: 429.5, currency: "TWD",
     valuation: "25x 2026E EPS",
-    epsForecast: {},
+    epsForecast: {"2025E":  16.81, "2026E":  19.16},
     summary: "小摩看好致茂量測（Metrology）業務在關鍵日系客戶帶動下成長，以 2026 年 EPS 25 倍評價，目標價 480 元。",
     tags: ["量測", "外資", "早期報告"]
   },
@@ -526,7 +526,7 @@ window.REPORTS = [
     ratingRaw: "Overweight", rating: "positive",
     targetPrice: 1800, targetRange: null, prevTargetPrice: null, price: 1340, currency: "TWD",
     valuation: "23x 2026e EPS",
-    epsForecast: {},
+    epsForecast: {"2026e":  77.6, "2027e":  100.32},
     summary: "大摩在亞太峰會後維持奇鋐加碼，看好 AI 資料中心液冷散熱需求；風險在於散熱需求放緩與競爭加劇。",
     tags: ["峰會", "液冷", "5G"]
   },
@@ -546,7 +546,7 @@ window.REPORTS = [
     ratingRaw: "增加持股", rating: "positive",
     targetPrice: 1800, targetRange: null, prevTargetPrice: 1695, price: 1395, currency: "TWD",
     valuation: "24x 2026F EPS",
-    epsForecast: {},
+    epsForecast: {"2026F":  75.0, "2027F":  107.65},
     summary: "Vera Rubin 採全液冷設計，水冷板單價雖降三成，但分歧管與快接頭價值提升，每運算托盤液冷價值較 GB300 增逾三成。",
     tags: ["Vera Rubin", "分歧管", "快接頭"]
   },
@@ -576,7 +576,7 @@ window.REPORTS = [
     ratingRaw: "Neutral（調降）", rating: "neutral",
     targetPrice: 870, targetRange: null, prevTargetPrice: 810, price: 892, currency: "TWD",
     valuation: "18x 2H26–1H27E EPS",
-    epsForecast: {},
+    epsForecast: {"2025E":  30.24, "2026E":  47.79},
     summary: "小摩認為 2H26 起部分 Rubin GPU 改用微通道蓋板（MCL）取代冷板，將壓抑雙鴻的成長與評價，調降為中立。",
     tags: ["調降評等", "MCL", "冷板"]
   },
@@ -596,7 +596,7 @@ window.REPORTS = [
     ratingRaw: "Outperform", rating: "positive",
     targetPrice: 2130, targetRange: null, prevTargetPrice: null, price: 1590, currency: "TWD",
     valuation: "—",
-    epsForecast: {},
+    epsForecast: {"2026F":  62.11, "2027F":  85.43},
     summary: "台光電滿載運作，原料成本上漲可轉嫁，提升議價能力；Rubin 架構新增 M9 用量，CLSA 上修兩年 EPS 9–10%。",
     tags: ["Rubin", "M9", "外資"]
   },
@@ -646,7 +646,7 @@ window.REPORTS = [
     ratingRaw: "增加持股（調升）", rating: "positive",
     targetPrice: 330, targetRange: null, prevTargetPrice: 206, price: 256, currency: "TWD",
     valuation: "28x 2026F EPS",
-    epsForecast: {},
+    epsForecast: {"2026F":  11.79, "2027F":  18.16},
     summary: "T-glass 玻纖布缺貨讓 BT 與 ABF 載板提前漲價，凱基把南電從持有調升為增加持股，目標價上調六成。",
     tags: ["T-glass", "ABF 漲價", "調升評等"]
   },
@@ -676,7 +676,7 @@ window.REPORTS = [
     ratingRaw: "增加持股", rating: "positive",
     targetPrice: 455, targetRange: null, prevTargetPrice: 330, price: 361, currency: "TWD",
     valuation: "25x 2026–27F 平均 EPS",
-    epsForecast: {},
+    epsForecast: {"2026F":  13.58, "2027F":  22.87},
     summary: "12 月單月 EPS 0.84 元，漲價、匯兌與低稅率讓 4Q25 獲利優於預期；樹林廠 1Q26 可望滿載，凱基上調目標價至 455 元。",
     tags: ["漲價", "樹林廠", "大尺寸載板"]
   },
@@ -686,7 +686,7 @@ window.REPORTS = [
     ratingRaw: "增加持股（調升）", rating: "positive",
     targetPrice: 168, targetRange: null, prevTargetPrice: null, price: 122.5, currency: "TWD",
     valuation: "22x 2026F EPS",
-    epsForecast: {},
+    epsForecast: {"2026F":  7.67, "2027F":  10.9},
     summary: "BT 與 ABF 因 T-glass 缺布提前漲價，凱基把景碩由持有調升為增加持股，預期 2026 年 ABF 每季漲 2–4%。",
     tags: ["T-glass", "漲價", "調升評等"]
   },
@@ -726,7 +726,7 @@ window.REPORTS = [
     ratingRaw: "增加持股（調升）", rating: "positive",
     targetPrice: 950, targetRange: null, prevTargetPrice: null, price: 810, currency: "TWD",
     valuation: "35x 2027F EPS",
-    epsForecast: {"2026F": 9.22, "2027F": 26.96},
+    epsForecast: {"2026F":  9.22, "2027F":  26.96, "2028F":  57.66},
     summary: "Agentic AI 帶動 CPU 需求，管理層預估 2027 年 CPU 營收占比升至 15%；ABF 2H26 進入供不應求，擴產規劃到 2029 年。",
     tags: ["CPU 載板", "TPU", "擴產"]
   },
@@ -735,8 +735,8 @@ window.REPORTS = [
     title: "積極擴產搶市占",
     ratingRaw: "BUY", rating: "positive",
     targetPrice: 1250, targetRange: null, prevTargetPrice: null, price: 891, currency: "TWD",
-    valuation: "—",
-    epsForecast: {"2026F": 12.3},
+    valuation: "42x 2027F EPS",
+    epsForecast: {"2026F":  12.3, "2027F":  29.7},
     summary: "5 月自結 EPS 0.91 元優於預期，元富上調 2Q26 EPS 至 2.59 元，給予買進、目標價 1,250 元。",
     tags: ["5 月獲利", "擴產", "市占"]
   },
@@ -746,7 +746,7 @@ window.REPORTS = [
     ratingRaw: "增加持股", rating: "positive",
     targetPrice: 202, targetRange: null, prevTargetPrice: null, price: 166, currency: "TWD",
     valuation: "22x 2026F EPS",
-    epsForecast: {},
+    epsForecast: {"2026F":  9.16, "2027F":  13.32},
     summary: "匯率讓 3Q25 毛利率低於共識，但業外收益使 EPS 優於共識；4Q25 載板漲價、稼動率提升，毛利率可望回升。",
     tags: ["財報", "匯率", "大尺寸載板"]
   },
@@ -776,7 +776,7 @@ window.REPORTS = [
     ratingRaw: "增加持股", rating: "positive",
     targetPrice: 405, targetRange: null, prevTargetPrice: 202, price: 321, currency: "TWD",
     valuation: "25x 2026–27F 平均 EPS",
-    epsForecast: {},
+    epsForecast: {"2026F":  12.44, "2027F":  20.18},
     summary: "12 月單月 EPS 0.78 元，ABF 稼動率 90%，凱基上修 2026–27 年獲利 36%、52%，目標價翻倍至 405 元。",
     tags: ["漲價", "光復廠", "楊梅廠"]
   },
@@ -786,7 +786,7 @@ window.REPORTS = [
     ratingRaw: "買進（調升）", rating: "positive",
     targetPrice: 1600, targetRange: null, prevTargetPrice: null, price: 1125, currency: "TWD",
     valuation: "30x 2027F EPS",
-    epsForecast: {"2026F": 17.98, "2027F": 54.37},
+    epsForecast: {"2026F":  17.98, "2027F":  54.37, "2028F":  94.47},
     summary: "南電為 Broadcom 高階交換器第二大 ABF 供應商，ABF 每季漲價約 10%，玉山估 2027 年 EPS 54 元。",
     tags: ["供不應求", "Broadcom", "T-glass"]
   },

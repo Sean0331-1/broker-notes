@@ -51,10 +51,19 @@
         <section class="section" id="keypoints">
           <h2>重點整理</h2>
           <ol>
-            <li><strong>SerDes 決定頻寬</strong>：NVLink SerDes 由 Ampere 56Gbps 到 Blackwell 224Gbps。</li>
-            <li><strong>速率瓶頸</strong>：224G 以上訊號衰減劇增，PCB 覆銅板須升級至 M9。</li>
-            <li><strong>功耗瓶頸</strong>：SerDes 功耗占比上升，需要光電共封裝縮短距離。</li>
+            <li><strong>SerDes 決定頻寬</strong>：SerDes 是晶片高速 I/O 的核心元件，Nvidia NVLink SerDes 由 Ampere 的 56Gbps 演進到 Blackwell 的 224Gbps。</li>
+            <li><strong>速率瓶頸推動 M9</strong>：224G 以上訊號高頻衰減劇增，PCB 覆銅板必須升級到 M9 等級。</li>
+            <li><strong>功耗瓶頸推動 CPO</strong>：SerDes 功耗占比隨速率上升，光互連需要透過近封裝、共封裝縮短與交換晶片的距離，取代傳統可插拔光模組。</li>
+            <li><strong>Rubin Ultra 機櫃</strong>：144 顆 GPU（每顆雙向 10.8TB/s）組成 1.5PB/s 的 scale-up 網路；第一層正交背板須用 M9 超低損耗 CCL，第二層用 72 顆 NVSwitch 與 648 顆 3.2T NPO 光引擎跨 Canister 互連，GPU 與光引擎比例 1:4.5。</li>
+            <li><strong>CPO 交換機</strong>：Quantum X3450 是全球首款量產 CPO 交換機（115.2T）；Spectrum X 平台 102.4T–409.6T，2026 年量產。</li>
           </ol>
+        </section>
+        <section class="section" id="drivers">
+          <h2>產業動能</h2>
+          <ul class="drivers">
+            <li><span class="when">2026 年</span><span>M9 PCB 產業鏈（菲利華、生益、滬電、深南電路等）與 CPO 產業鏈（光引擎、外部雷射光源、光纖連接單元）需求爆發。</span></li>
+            <li><span class="when">2027 年</span><span>Rubin Ultra 機櫃推動 M9 材料與 NPO 光引擎確定成長。</span></li>
+          </ul>
         </section>
         <section class="section" id="numbers">
           <h2>關鍵數據</h2>
@@ -71,12 +80,6 @@
         <section class="section" id="terms">
           <h2>名詞解釋</h2>
           <div data-terms="SerDes,CPO,M8/M9"></div>
-        </section>
-        <section class="section" id="mynotes">
-          <h2>我的筆記</h2>
-          <div class="mynotes">
-            <p>簡體中文報告，從技術底層推導投資方向，邏輯很清楚。</p>
-          </div>
         </section>
         <section class="section source" id="source">
           <h2>來源與聲明</h2>

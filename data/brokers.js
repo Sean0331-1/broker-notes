@@ -1,0 +1,32 @@
+// 券商與來源代碼表 — 新增時在最後加一筆（規則見 CLAUDE.md §4.3）
+// type：本土、外資、中國券商、研究機構、其他
+window.BROKERS = [
+  { id: "concords", name: "康和投顧", type: "本土" },
+  { id: "kgi", name: "凱基投顧", type: "本土" },
+  { id: "citi", name: "Citi 花旗", type: "外資" },
+  { id: "masterlink", name: "元富投顧", type: "本土" },
+  { id: "tcb", name: "合庫投顧", type: "本土" },
+  { id: "pscnet", name: "統一投顧", type: "本土" },
+  { id: "megas", name: "兆豐投顧", type: "本土" },
+  { id: "sinopac", name: "永豐投顧", type: "本土" },
+  { id: "gfortune", name: "福邦投顧", type: "本土" },
+  { id: "yuanta", name: "元大投顧", type: "本土" },
+  { id: "gs", name: "Goldman Sachs", type: "外資" },
+  { id: "ms", name: "Morgan Stanley", type: "外資" },
+  { id: "bofa", name: "BofA", type: "外資" },
+  { id: "jpm", name: "J.P. Morgan", type: "外資" },
+  { id: "fubon", name: "富邦投顧", type: "本土" },
+  { id: "esun", name: "玉山投顧", type: "本土" },
+  { id: "hnc", name: "華南投顧", type: "本土" },
+  { id: "horizon", name: "宏遠投顧", type: "本土" },
+  { id: "aletheia", name: "Aletheia Capital", type: "外資" },
+  { id: "clsa", name: "CLSA", type: "外資" },
+  { id: "daiwa", name: "Daiwa 大和", type: "外資" },
+  { id: "nomura", name: "Nomura 野村", type: "外資" },
+  { id: "ubs", name: "UBS 瑞銀", type: "外資" },
+  { id: "dwzq", name: "東吳證券", type: "中國券商" },
+  { id: "semianalysis", name: "SemiAnalysis", type: "研究機構" },
+  { id: "epci", name: "EPCI 歐洲被動元件研究所", type: "研究機構" },
+  { id: "forum", name: "產業論壇", type: "其他" },
+  { id: "student", name: "學生團隊", type: "其他" }
+];

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>產業與技術｜研報筆記站</title>
+  <meta name="description" content="產業趨勢、技術介紹與市場規模分析的報告筆記。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Noto+Sans+TC:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="industry-list" data-root="">
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">研報筆記站 <small>BROKER RESEARCH NOTES</small></a>
+      <nav class="site-nav">
+        <a href="index.html">個股報告</a>
+        <a href="industry.html" aria-current="page">產業與技術</a>
+        <a href="index.html#companies">公司</a>
+        <a href="glossary.html">名詞庫</a>
+        <a href="about.html">關於</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="page-head">
+      <h1>產業與技術筆記</h1>
+      <p>沒有單一評等與目標價的報告：產業展望、技術介紹、市場規模估算、論壇簡報與學術文章。</p>
+    </div>
+
+    <div class="filters">
+      <label>主題 <select id="i-group"><option value="">全部</option></select></label>
+      <label>來源類型 <select id="i-type"><option value="">全部</option></select></label>
+      <label>搜尋 <input id="i-text" type="search" placeholder="例如 CPO、液冷、ABF"></label>
+      <span class="count" data-count></span>
+    </div>
+
+    <div class="grid" data-industry-list></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">本站為個人學習筆記，內容整理自券商報告摘要，不構成任何投資建議。原始報告著作權屬各券商所有。</div>
+  </footer>
+
+  <script src="data/brokers.js"></script>
+  <script src="data/companies.js"></script>
+  <script src="data/glossary.js"></script>
+  <script src="data/reports.js"></script>
+  <script src="data/industry.js"></script>
+  <script src="assets/site.js"></script>
+</body>
+</html>

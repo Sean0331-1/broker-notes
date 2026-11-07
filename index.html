@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>研報筆記站</title>
+  <meta name="description" content="把券商個股研究報告整理成一致格式的學習筆記，比較不同券商的評等與目標價。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Noto+Sans+TC:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="index" data-root="">
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">研報筆記站 <small>BROKER RESEARCH NOTES</small></a>
+      <nav class="site-nav">
+        <a href="index.html" aria-current="page">個股報告</a>
+        <a href="industry.html">產業與技術</a>
+        <a href="index.html#companies">公司</a>
+        <a href="glossary.html">名詞庫</a>
+        <a href="about.html">關於</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="page-head">
+      <h1>券商研究報告筆記</h1>
+      <p>用同一套格式整理每一份研究報告：評等、目標價、投資論點、風險與我的筆記。</p>
+    </div>
+
+    <div class="stats" data-stats></div>
+
+    <div class="filters">
+      <label>產業 <select id="f-group"><option value="">全部</option></select></label>
+      <label>公司 <select id="f-company"><option value="">全部</option></select></label>
+      <label>券商 <select id="f-broker"><option value="">全部</option></select></label>
+      <label>評等 <select id="f-rating"><option value="">全部</option></select></label>
+      <label>搜尋 <input id="f-text" type="search" placeholder="代號、公司、關鍵字"></label>
+      <span class="count" data-count></span>
+    </div>
+
+    <div class="grid" data-report-list></div>
+    <div class="more" data-more></div>
+
+    <div class="page-head" id="industry">
+      <h2>最新產業與技術筆記</h2>
+      <p>產業趨勢、技術介紹與市場規模分析。<a href="industry.html">看全部 →</a></p>
+    </div>
+    <div class="grid" data-industry-latest></div>
+
+    <div class="page-head" id="companies">
+      <h2>追蹤公司</h2>
+      <p>點進公司頁可以比較各券商的目標價變化。</p>
+    </div>
+    <div class="grid" data-company-list></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">本站為個人學習筆記，內容整理自公開取得之券商報告摘要，不構成任何投資建議。原始報告著作權屬各券商所有。</div>
+  </footer>
+
+  <script src="data/brokers.js"></script>
+  <script src="data/companies.js"></script>
+  <script src="data/glossary.js"></script>
+  <script src="data/reports.js"></script>
+  <script src="data/industry.js"></script>
+  <script src="assets/site.js"></script>
+</body>
+</html>

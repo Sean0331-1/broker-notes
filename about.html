@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>關於｜研報筆記站</title>
+  <meta name="description" content="本站的整理方式、評等對照與免責聲明。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Noto+Sans+TC:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="about" data-root="">
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">研報筆記站 <small>BROKER RESEARCH NOTES</small></a>
+      <nav class="site-nav">
+        <a href="index.html">個股報告</a>
+        <a href="industry.html">產業與技術</a>
+        <a href="index.html#companies">公司</a>
+        <a href="glossary.html">名詞庫</a>
+        <a href="about.html" aria-current="page">關於</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="page-head">
+      <h1>關於本站</h1>
+    </div>
+
+    <article class="prose">
+      <h2>這是什麼</h2>
+      <p>這是我練習閱讀券商研究報告的筆記站。每讀完一份報告，就用固定的 8 個區塊整理：基本資訊、一句話結論、投資論點、財務預估、風險、名詞解釋、我的筆記、來源。格式固定之後，同一家公司不同券商的觀點就能並排比較。</p>
+      <p>沒有單一評等的報告，例如產業展望、技術介紹、市場規模估算、論壇簡報，則收在「產業與技術」區，並連結到相關公司。</p>
+      <p>整個網站依照專案根目錄的 <code>CLAUDE.md</code> 規則建立，AI 讀完那份文件後，可以照同樣的格式新增下一篇筆記。</p>
+
+      <h2>評等怎麼換算</h2>
+      <p>各家券商的評等用語不同，本站保留原文，另外統一換算成三級：</p>
+      <div class="table-wrap">
+        <table class="fin">
+          <thead><tr><th>本站</th><th>對應的券商用語</th></tr></thead>
+          <tbody>
+            <tr><td><span class="badge badge--positive">正向</span></td><td>買進、增加持股、逢低買進、Buy、Overweight</td></tr>
+            <tr><td><span class="badge badge--neutral">中性</span></td><td>中立、區間操作、持有、Hold、Neutral</td></tr>
+            <tr><td><span class="badge badge--negative">負向</span></td><td>減碼、賣出、Sell、Underweight</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>潛在空間 =（目標價 ÷ 報告當時股價 − 1），區間型評等取區間中位數。顏色採台股慣例：<span class="up">紅色代表上漲</span>、<span class="down">綠色代表下跌</span>。</p>
+
+      <h2>免責聲明</h2>
+      <p>本站內容為個人學習用途之摘要整理，不構成任何投資建議或買賣邀約。數字以原報告為準，可能有整理錯誤；原始報告著作權屬各券商所有，本站不提供原文下載。投資前請自行判斷並承擔風險。</p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">本站為個人學習筆記，內容整理自公開取得之券商報告摘要，不構成任何投資建議。原始報告著作權屬各券商所有。</div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,12 @@
+# 券商原始報告有版權，只留在本機，絕對不能推上 GitHub
+raw-reports/
+*.pdf
+*.xlsx
+*.docx
+*.pptx
+*.mp3
+
+# 系統檔
+.DS_Store
+Thumbs.db
+desktop.ini

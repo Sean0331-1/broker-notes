@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>公司｜研報筆記站</title>
+  <meta name="description" content="同一家公司的所有券商報告：評等與目標價變化。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Noto+Sans+TC:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="company" data-root="">
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">研報筆記站 <small>BROKER RESEARCH NOTES</small></a>
+      <nav class="site-nav">
+        <a href="index.html">個股報告</a>
+        <a href="industry.html">產業與技術</a>
+        <a href="index.html#companies" aria-current="page">公司</a>
+        <a href="glossary.html">名詞庫</a>
+        <a href="about.html">關於</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="crumbs"><a href="index.html">首頁</a> › <span data-crumb>公司</span></div>
+    <div class="company-head" data-company-head></div>
+
+    <section class="section chart-box">
+      <h2>目標價 vs. 報告時股價</h2>
+      <div data-chart></div>
+      <div class="legend">
+        <span><i class="l-pos"></i>正向評等目標價</span>
+        <span><i class="l-neu"></i>中性評等目標價（區間型以中位數標示）</span>
+        <span><i class="l-px"></i>報告當時股價</span>
+      </div>
+    </section>
+
+    <section class="section chart-box">
+      <h2>各券商觀點一覽</h2>
+      <div class="table-wrap">
+        <table class="fin">
+          <thead>
+            <tr><th>日期</th><th>券商</th><th>評等</th><th class="num">目標價</th><th class="num">當時股價</th><th class="num">潛在空間</th><th>評價方法</th></tr>
+          </thead>
+          <tbody data-company-table></tbody>
+        </table>
+      </div>
+    </section>
+
+    <div class="grid" data-company-cards></div>
+
+    <div class="page-head related-industry">
+      <h2>相關產業與技術筆記</h2>
+    </div>
+    <div class="grid" data-company-industry></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">本站為個人學習筆記，內容整理自公開取得之券商報告摘要，不構成任何投資建議。原始報告著作權屬各券商所有。</div>
+  </footer>
+
+  <script src="data/brokers.js"></script>
+  <script src="data/companies.js"></script>
+  <script src="data/glossary.js"></script>
+  <script src="data/reports.js"></script>
+  <script src="data/industry.js"></script>
+  <script src="assets/site.js"></script>
+</body>
+</html>
